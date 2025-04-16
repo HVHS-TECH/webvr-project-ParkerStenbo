@@ -3,26 +3,17 @@
   <head>
 
 <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
-<script src="https://rawgit.com/donmccurdy/aframe-extras/v2.1.1/dist/aframe-extras.loaders.min.js"></script> 
 
   </head>
     <body>
       <a-scene inspector="" keyboard-shortcuts="" screenshot="" vr-mode-ui="" device-orientation-permission-ui="">
         <a-assets>
-          <video id="Animated_skybox" src="10001-0068.mp4" preload="auto" autoplay loop="true"></video>
+          <video id="Animated_skybox" autoplay loop="true" src="10001-0068.mp4"></video>
         </a-assets>
         <a-videosphere src="#Animated_skybox"></a-videosphere>
         <!--<a-sphere scale="10 10 10" src="Cat skybox.jpg" offset="0, 0" material="" geometry="" side="back" envmap="Cat skybox.jpg">
           material="src: Cat skybox.jpg; offset:1, 0"
         </a-sp here>-->
-<<<<<<< HEAD
-        document.querySelector("Animated_skybox").components.material.material.map.image.play();
-=======
->>>>>>> 68a7599 (Apr 14, 2025, 9:31 PM)
-
-      <div class="a-loader-title" style="display: none;"></div><div class="a-loader-title" style="display: none;"></div><div class="a-loader-title" style="display: none;"></div></a-scene>
-      <script>
-        document.querySelector("#Animated_skybox").components.material.material.map.image.play();
-      </script>
+      </a-scene>
   </body>
 </html>
